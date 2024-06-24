@@ -1,0 +1,86 @@
+
+/*Contact Section*/
+#contact{
+    padding: 25px 0 25px 0;
+}
+
+#section{
+    padding: 25px 0 25px 0;
+    text-align: center;
+    font-size: 2rem;
+    font-family: verdana;
+}
+#contact_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px 0 100px;
+    flex-wrap: wrap;
+}
+.contact_col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.contact_col p,h3{
+    font-weight: bold;
+    color: #a4b92d;
+    margin: 10px;
+}
+.contact_col p a{
+    text-decoration: none;
+    color: #a4b92d;
+}
+#social a{
+    color: magenta;
+    margin: 2px;
+}
+.contact_col form{
+    display: flex;
+    flex-direction: column;
+    background-color: magenta;
+    width: 70%;
+    padding: 20px 40px 20px 20px;
+}
+.contact_col form h2{
+    text-align: center;
+    font-family: cursive;
+}
+.contact_col form input{
+    width: 100%;
+    height: 15pt;
+    padding: 5px;
+    margin: 5px;
+}
+.contact_col form textarea{
+    width: 100%;
+    height: 100pt;
+    padding: 5px;
+}
+.contact_col form button{
+    margin: auto;
+    padding: 10px;
+    color: #fff;
+    background-color: #ca6f1a;
+    border: 1px solid orange;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width : 768px){
+    #mobile_menu{
+        display: block;
+    }
+    #navbar ul{
+        display: none;
+    }
+    html{
+        font-size: 95%;
+    }
+    #contact_row{
+        flex-wrap: wrap;
+        padding: 0 10px 0 10px;
+    }
+    
+}
